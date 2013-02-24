@@ -1,0 +1,10 @@
+#sharebox_shadow{display:none;left:0;right:0;top:0;bottom:0;background:black;opacity:0.6;position:fixed;z-index:1;}
+#sharebox{display:none;z-index:99;position:fixed;top:20%;right:0;width:80px;text-align:center;}
+	#sharebox_button{text-decoration:none;display:block;padding:5px 0 59px 0;color:#fff;background:#21A820 url('img/share.png') center bottom no-repeat;}
+	#sharebox_options{display:none;}
+		#sharebox_options a{text-decoration:none;height:82px;width:82px;display:block}
+
+#sharebox_twitter{background:url('img/tw.png');}
+#sharebox_facebook{background:url('img/fb.png');}
+#sharebox_google{background:url('img/g.png');}
+#sharebox_linkedin{background:url('img/in.png');}
