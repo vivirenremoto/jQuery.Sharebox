@@ -42,7 +42,7 @@
 		
 			switch( op ){
 				case 'twitter':
-					url = 'http://twitter.com/?status=' + title + '+' + source;
+					url = 'https://twitter.com/intent/tweet?text=' + title + '+' + source;
 					break;
 				case 'facebook':
 					url = 'https://www.facebook.com/sharer/sharer.php?u=' + source;
@@ -90,6 +90,14 @@
 			$('body').append(html);
 
 			$().ready(function(){
+			
+				if( F.defaults.focus ){
+					$('#sharebox_shadow').click(function(){
+						$('#sharebox_options').slideToggle('fast',function(){
+							$('#sharebox_shadow').hide();
+						});
+					});
+				}
 
 				$.each($('#sharebox_options a'), function (item, obj) {
 					var op = $(obj).attr('id');
