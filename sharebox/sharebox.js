@@ -27,7 +27,7 @@
 			google   : true,		// mostrar botón google+
 			linkedin : true,		// mostrar botón linkedin
 			hide     : false,		// ocultar menú al seleccionar opción
-			share_txt : 'compartir'	// texto botón compartir
+			txt_share : 'compartir'	// texto botón compartir
 		},
 
 		share: function (op) {
@@ -79,7 +79,7 @@
 			if( F.defaults.focus ) html += '<div id="sharebox_shadow">&nbsp;</div>';
 
 			html += '<div id="sharebox">';
-			html += '<a href="javascript:;" id="sharebox_button">' + F.defaults.share_txt + '</a>';
+			html += '<a href="javascript:;" id="sharebox_button">' + F.defaults.txt_share + '</a>';
 			html += '<div id="sharebox_options">';
 			if( F.defaults.twitter )  html += '<a href="#" id="sharebox_twitter">&nbsp;</a>';
 			if( F.defaults.facebook ) html += '<a href="#" id="sharebox_facebook">&nbsp;</a>';
