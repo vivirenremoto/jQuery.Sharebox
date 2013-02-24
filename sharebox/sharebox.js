@@ -89,7 +89,7 @@
 			html += '</div>';
 			$('body').append(html);
 
-			$().ready(function(){
+			$(function(){
 			
 				if( F.defaults.focus ){
 					$('#sharebox_shadow').click(function(){
