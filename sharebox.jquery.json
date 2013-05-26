@@ -1,0 +1,35 @@
+{
+    "name": "sharebox",
+    "title": "jQuery Sharebox",
+    "description": "jQuery plugin for color manipulation and animation support.",
+    "keywords": [
+        "share",
+        "social",
+        "marketing"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Miquel Camps Orteza",
+        "url": "http://miquelcamps.com"
+    },
+    "maintainers": [
+        {
+	        "name": "Miquel Camps Orteza",
+            "email": "gafeman@gmail.com",
+	        "url": "http://miquelcamps.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/miquelcamps/jQuery.Sharebox/issues",
+    "homepage": "http://migueldev.com/jquery.sharebox/",
+    "docs": "http://migueldev.com/jquery.sharebox/",
+    "download": "http://code.jquery.com/#sharebox",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
